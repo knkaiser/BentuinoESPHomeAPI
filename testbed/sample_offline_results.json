@@ -1,0 +1,236 @@
+{
+  "generated": "2026-06-08T23:41:47",
+  "results": [
+    {
+      "id": "TS-1.2",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "framed/parsed length=3 type=7"
+    },
+    {
+      "id": "TS-1.4",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "len varint = ac02"
+    },
+    {
+      "id": "TS-1.5",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "00 00 07"
+    },
+    {
+      "id": "TS-2.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-2.3",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-2.10",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-2.6",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "SKIP",
+      "note": "no encryption key configured"
+    },
+    {
+      "id": "TS-3.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-3.4",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-3.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-4.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-4.6",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-5.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-6.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-6.4",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-6.3",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-6.4-OFFLINE",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "0xDB0A35EC"
+    },
+    {
+      "id": "TS-7.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-7.4",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-8.3",
+      "level": "MUST",
+      "mode": "disruptive",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-9.1",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "tags 0x0A/0x10/0x0D/0x15"
+    },
+    {
+      "id": "TS-9.2",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "0D EC 35 0A DB"
+    },
+    {
+      "id": "TS-9.2b",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "15 00 00 BC 41 -> 23.5"
+    },
+    {
+      "id": "TS-9.3",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "defaults omitted"
+    },
+    {
+      "id": "TS-9.4",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "zigzag ok for boundary values"
+    },
+    {
+      "id": "TS-9.5",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "decoded known field, retained 2 unknown fields"
+    },
+    {
+      "id": "TS-9.6",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "utf-8 preserved"
+    },
+    {
+      "id": "TS-9-HELLO",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "0a0842656e7475696e6f1001180a"
+    },
+    {
+      "id": "TS-11.1",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-12.1",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    },
+    {
+      "id": "TS-12.3",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "raised cleanly: truncated varint"
+    },
+    {
+      "id": "TS-12.7",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "handled short length-delimited field"
+    },
+    {
+      "id": "TS-12.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not available / offline-only"
+    }
+  ]
+}

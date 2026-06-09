@@ -1,0 +1,11 @@
+{
+  "name": "ESPHomeAPI",
+  "version": "0.4.1",
+  "description": "Standalone implementation of the ESPHome native API protocol (plaintext + Noise encryption) for ESP32/ESP8266. Lets a custom Arduino/PlatformIO firmware be controlled by Home Assistant.",
+  "keywords": "esphome, home-assistant, api, protobuf, esp32, esp8266",
+  "frameworks": "arduino",
+  "platforms": ["espressif32", "espressif8266"],
+  "build": {
+    "srcDir": "src"
+  }
+}

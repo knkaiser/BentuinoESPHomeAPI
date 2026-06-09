@@ -1,0 +1,257 @@
+{
+  "generated": "2026-06-09T01:31:06",
+  "results": [
+    {
+      "id": "TS-1.2",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "framed/parsed length=3 type=7"
+    },
+    {
+      "id": "TS-1.4",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "len varint = ac02"
+    },
+    {
+      "id": "TS-1.5",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "00 00 07"
+    },
+    {
+      "id": "TS-2.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not using encryption"
+    },
+    {
+      "id": "TS-2.3",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not using encryption"
+    },
+    {
+      "id": "TS-2.10",
+      "level": "MUST",
+      "mode": "online",
+      "status": "SKIP",
+      "note": "device not using encryption"
+    },
+    {
+      "id": "TS-2.6",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "SKIP",
+      "note": "no encryption key configured"
+    },
+    {
+      "id": "TS-3.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "API 1.10, name=sim-device"
+    },
+    {
+      "id": "TS-3.4",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "authenticated"
+    },
+    {
+      "id": "TS-3.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "server major=1 (compatible); policy applies on mismatch"
+    },
+    {
+      "id": "TS-4.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "rejected wrong password"
+    },
+    {
+      "id": "TS-4.6",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "server closed/blocked as expected: connection closed by peer"
+    },
+    {
+      "id": "TS-5.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "ping/pong ok"
+    },
+    {
+      "id": "TS-6.5",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "discovered 5 entities, Done received"
+    },
+    {
+      "id": "TS-6.4",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "verified 5 keys via FNV-1"
+    },
+    {
+      "id": "TS-6.3",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "5 entities have required fields"
+    },
+    {
+      "id": "TS-6.4-OFFLINE",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "0xDB0A35EC"
+    },
+    {
+      "id": "TS-7.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "state sensor key=0x4EEE9F69 value=8.003000259399414"
+    },
+    {
+      "id": "TS-7.4",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "correlated key 0x4EEE9F69"
+    },
+    {
+      "id": "TS-8.3",
+      "level": "MUST",
+      "mode": "disruptive",
+      "status": "PASS",
+      "note": "sent ButtonCommandRequest to restart (0x47BA7052)"
+    },
+    {
+      "id": "TS-9.1",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "tags 0x0A/0x10/0x0D/0x15"
+    },
+    {
+      "id": "TS-9.2",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "0D EC 35 0A DB"
+    },
+    {
+      "id": "TS-9.2b",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "15 00 00 BC 41 -> 23.5"
+    },
+    {
+      "id": "TS-9.3",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "defaults omitted"
+    },
+    {
+      "id": "TS-9.4",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "zigzag ok for boundary values"
+    },
+    {
+      "id": "TS-9.5",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "decoded known field, retained 2 unknown fields"
+    },
+    {
+      "id": "TS-9.6",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "utf-8 preserved"
+    },
+    {
+      "id": "TS-9-HELLO",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "0a0842656e7475696e6f1001180a"
+    },
+    {
+      "id": "TS-10-LOG",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "level=5 msg='sim heartbeat uptime=10s'"
+    },
+    {
+      "id": "TS-13-HA-SVC",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "event='esphome.sim_heartbeat' data=[('uptime', '12')]"
+    },
+    {
+      "id": "TS-13-HA-STATE",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "device consumed HA state: 'HA state sun.sun=above_horizon'"
+    },
+    {
+      "id": "TS-11.1",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "received DisconnectResponse (6)"
+    },
+    {
+      "id": "TS-12.1",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "unknown type ignored; ping still works"
+    },
+    {
+      "id": "TS-12.3",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "raised cleanly: truncated varint"
+    },
+    {
+      "id": "TS-12.7",
+      "level": "MUST",
+      "mode": "offline",
+      "status": "PASS",
+      "note": "handled short length-delimited field"
+    },
+    {
+      "id": "TS-12.2",
+      "level": "MUST",
+      "mode": "online",
+      "status": "PASS",
+      "note": "server responded (0 bytes) then should close"
+    }
+  ]
+}

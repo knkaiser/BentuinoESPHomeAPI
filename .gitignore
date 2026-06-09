@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# PlatformIO / firmware build
+.pio/
+firmware/test/host_test
+firmware/test/host_sim/sim
+firmware/test/host_sim/sim.log
+*.o
+
+# Python test bed
+__pycache__/
+*.py[cod]
+testbed/config.json
+.venv/
+venv/
+
+# Local / device-specific test runs (keep sample_* and fw_* results)
+testbed/tss_*.json
+testbed/tss_*.md
+
+# Secrets and keys
+.env
+.env.*
+*.key
+**/secrets.yaml
+**/secrets.h
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dropbox conflict copies
+*\ (conflicted\ copy\ *).

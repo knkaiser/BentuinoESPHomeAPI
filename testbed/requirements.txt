@@ -1,0 +1,6 @@
+# Required only for Noise-encrypted (online) tests.
+# Offline tests run with the standard library alone.
+noiseprotocol>=0.3.1
+
+# Optional: mDNS discovery tests TS-15.4 / TS-15.5 (when --mdns-name is set)
+zeroconf>=0.131.0

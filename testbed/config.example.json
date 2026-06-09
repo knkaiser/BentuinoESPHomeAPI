@@ -1,0 +1,15 @@
+{
+  "host": "192.168.1.50",
+  "port": 6053,
+  "encryption_key": "PASTE_BASE64_API_KEY_HERE==",
+  "password": "",
+  "timeout": 10.0,
+  "expected_entities": {
+    "kmeter_temperature": "sensor",
+    "kmeter_internal_temperature": "sensor",
+    "wifi_signal_sensor": "sensor",
+    "restart_kmeter": "button"
+  },
+  "mdns_name": "kmeter",
+  "expected_manufacturer": "Bentuino"
+}

@@ -1,0 +1,5 @@
+.pio/
+test/host_test
+test/host_sim/sim
+test/host_sim/sim.log
+*.o
