@@ -23,12 +23,24 @@ It is derived from the ESPHome implementation, primarily:
 | **[TEST_STRATEGY.md](TEST_STRATEGY.md)** | Testing layers and architecture: how the test bed, firmware, and host simulator fit together |
 | **[testbed/](testbed/README.md)** | Runnable Python test bed that executes the compliance tests (offline unit tests + online tests against a device) |
 | **[firmware/](firmware/README.md)** | C++ device-side implementation of the protocol for ESP32/ESP8266 (PlatformIO), plaintext **and Noise encryption**, controllable by Home Assistant |
+| **[firmware/examples/](firmware/examples/README.md)** | 22 minimal PlatformIO projects (one per entity type), mDNS discovery, ready to flash |
 | **[firmware/REFERENCE.md](firmware/REFERENCE.md)** | API reference for the C++ `ESPHomeAPI` library, including open items / limitations |
 | **[NATIVE_API_VS_MQTT.md](NATIVE_API_VS_MQTT.md)** | Comparison of Native API vs MQTT for Home Assistant integration (architecture, features, trade-offs) |
 | **[api.proto](api.proto)** | Canonical protobuf message definitions (API 1.10) |
 | **[api_options.proto](api_options.proto)** | Message ID and metadata extensions |
 
 **Official ESPHome reference:** [Protocol Details — developers.esphome.io](https://developers.esphome.io/architecture/api/protocol_details/)
+
+### Repository layout (top level)
+
+| Path | Contents |
+|------|----------|
+| [`firmware/`](firmware/README.md) | C++ library, demo app, **examples**, host simulator |
+| [`firmware/examples/`](firmware/examples/README.md) | 22 entity sample projects (sensor, light, switch, …) |
+| [`examples/`](examples/README.md) | Pointer → `firmware/examples/` |
+| [`testbed/`](testbed/README.md) | Python compliance test harness |
+| [`api/`](api/) | Reference ESPHome C++ sources (derived) |
+| `api.proto` | Canonical message schema (API 1.10) |
 
 > **Implementing a client?** Start with IMPLEMENTATION_GUIDE.md — README alone is not sufficient without api.proto.
 
