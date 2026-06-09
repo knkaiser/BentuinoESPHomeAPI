@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 Karl Kaiser
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 """ESPHome native API compliance test bed - CLI entry point.
 
 Examples

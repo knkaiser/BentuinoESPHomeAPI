@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 // Number example: float slider with min/max/step.
 #include <Arduino.h>
 #include "api_log.h"

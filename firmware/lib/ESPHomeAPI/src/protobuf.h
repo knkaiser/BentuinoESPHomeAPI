@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 #pragma once
 // Minimal, portable Protocol Buffers codec for the ESPHome native API.
 // No external dependencies (no nanopb / protoc). proto3 semantics: default

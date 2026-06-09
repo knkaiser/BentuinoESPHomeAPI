@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 #pragma once
 // Portable entity model for the ESPHome native API (device/server side).
 #include <cmath>

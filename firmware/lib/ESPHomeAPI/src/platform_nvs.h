@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 #pragma once
 // Tiny non-volatile key/value store for entity state persistence (restore_mode).
 // One byte per 32-bit key (typically an entity's FNV-1 key). Header-only so it

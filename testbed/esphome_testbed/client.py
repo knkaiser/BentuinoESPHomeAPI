@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Karl Kaiser
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 """High-level ESPHome native API client (CLIENT role).
 
 Wraps a transport and implements the session lifecycle plus the message

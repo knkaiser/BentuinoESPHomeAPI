@@ -707,6 +707,20 @@ Value 300 encodes as two bytes: `0xAC 0x02`
 
 ## License & Attribution
 
-This specification documents the ESPHome native API protocol as implemented by the [ESPHome project](https://esphome.io) (AGPL-3.0). It is intended for interoperability and Bentuino development reference.
+This project — the C++ library, firmware, examples, protocol documentation, and
+Python test bed — is licensed under the **GNU Affero General Public License v3.0
+or later (AGPL-3.0-or-later)**. See [LICENSE](LICENSE) for the full text. Each
+source file carries an `SPDX-License-Identifier: AGPL-3.0-or-later` header.
 
-For the authoritative and always up-to-date message definitions, see the ESPHome source repository.
+> **Vendored code:** `firmware/lib/ESPHomeAPI/src/crypto/tweetnacl.{c,h}` is the
+> public-domain [TweetNaCl](https://tweetnacl.cr.yp.to/) library and retains its
+> own terms; it is not covered by the AGPL header above.
+
+> **Provenance:** this is an AI-generated implementation, directed and reviewed
+> by the author. It passes the bundled compliance suite but has not been through
+> independent production hardening or security audit — review before relying on it.
+
+This work documents and interoperates with the ESPHome native API as implemented
+by the [ESPHome project](https://esphome.io) (also AGPL-3.0). It is intended for
+interoperability and Bentuino development reference. For the authoritative and
+always up-to-date message definitions, see the ESPHome source repository.

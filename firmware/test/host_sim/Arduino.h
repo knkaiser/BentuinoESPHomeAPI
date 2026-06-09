@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 // Minimal Arduino.h shim for the HOST simulator build only.
 // Lets the real api_connection.cpp / api_server.cpp compile on a POSIX host so
 // the protocol code can be exercised by the Python test bed over a TCP socket.

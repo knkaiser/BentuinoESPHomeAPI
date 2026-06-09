@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Karl Kaiser
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 """Minimal Protocol Buffers codec + ESPHome helpers.
 
 Self-contained (no `protobuf` dependency). Implements only the wire-format

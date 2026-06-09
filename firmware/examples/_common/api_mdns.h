@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 // Home Assistant mDNS / zeroconf advertisement for the native API.
 //
 // The ESPHomeAPI library does not call ESPmDNS itself (WiFi must be up first,

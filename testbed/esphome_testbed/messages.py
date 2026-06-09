@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Karl Kaiser
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 """ESPHome native API message-type IDs and entity-type maps."""
 from __future__ import annotations
 

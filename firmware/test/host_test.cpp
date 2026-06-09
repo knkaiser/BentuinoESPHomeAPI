@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 // Host-side unit test for the portable protocol core (no Arduino required).
 // Validates wire-format output against the same vectors used by the Python
 // test bed (../../testbed). Compile & run:

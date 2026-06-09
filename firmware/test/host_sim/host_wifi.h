@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 // POSIX socket-backed WiFiClient / WiFiServer / WiFi shims for the HOST
 // simulator build only. API mirrors the subset of the Arduino WiFi classes
 // used by the ESPHomeAPI library.

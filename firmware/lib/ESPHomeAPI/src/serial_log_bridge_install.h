@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 #pragma once
 // Optional compile-time hook: redirect Arduino Serial to ApiSerial so every
 // Serial.print/println/printf also streams to subscribed HA log clients.

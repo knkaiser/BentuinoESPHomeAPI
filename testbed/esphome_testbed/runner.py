@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Karl Kaiser
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 """Test registry, execution context, and results reporting."""
 from __future__ import annotations
 

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 #pragma once
 // Line-buffered Print wrapper: forwards to hardware UART (or stdout) and
 // mirrors complete lines to APIServer::log() for HA log streaming.

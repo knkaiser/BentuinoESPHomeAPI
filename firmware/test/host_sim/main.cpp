@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Karl Kaiser
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Part of BentuinoESPHomeAPI — https://github.com/knkaiser/BentuinoESPHomeAPI
+
 // Host simulator: runs the REAL ESPHomeAPI server code (api_server.cpp,
 // api_connection.cpp, entity.cpp) over a POSIX TCP socket on localhost:6053 so
 // the Python test bed can run the compliance suite against it.
