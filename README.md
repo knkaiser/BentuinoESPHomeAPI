@@ -39,8 +39,12 @@ It is derived from the ESPHome implementation, primarily:
 | [`firmware/examples/`](firmware/examples/README.md) | 22 entity sample projects (sensor, light, switch, …) |
 | [`examples/`](examples/README.md) | Pointer → `firmware/examples/` |
 | [`testbed/`](testbed/README.md) | Python compliance test harness |
-| [`api/`](api/) | Reference ESPHome C++ sources (derived) |
 | `api.proto` | Canonical message schema (API 1.10) |
+
+> **`api/` (local only):** optional copy of upstream ESPHome `components/api` C++
+> for side-by-side reference. It is **gitignored** and not built — runtime code
+> is in [`firmware/lib/ESPHomeAPI/`](firmware/lib/ESPHomeAPI/). To add locally,
+> copy from [esphome/esphome/components/api](https://github.com/esphome/esphome/tree/dev/esphome/components/api).
 
 > **Implementing a client?** Start with IMPLEMENTATION_GUIDE.md — README alone is not sufficient without api.proto.
 

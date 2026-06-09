@@ -35,3 +35,6 @@ testbed/tss_*.md
 
 # Dropbox conflict copies
 *\ (conflicted\ copy\ *).
+
+# ESPHome upstream C++ reference (local audit copy only — not published)
+api/
